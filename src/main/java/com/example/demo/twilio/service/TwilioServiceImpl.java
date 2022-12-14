@@ -1,11 +1,9 @@
 package com.example.demo.twilio.service;
 
 import com.example.demo.twilio.TwilioConfiguration;
-import com.example.demo.twilio.dto.number;
 import com.example.demo.twilio.dto.messageDto;
+import com.example.demo.twilio.dto.number;
 import com.twilio.rest.api.v2010.account.Message;
-import com.twilio.twiml.MessagingResponse;
-import com.twilio.twiml.messaging.Body;
 import com.twilio.type.PhoneNumber;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
